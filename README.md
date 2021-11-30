@@ -1,7 +1,7 @@
 # terraform-aws-ec2
 ```
 module "create_ec2_instance" {
-    source                             = ""
+    source                             = "git@github.com:shaikis/terraform-aws-ec2.git?tag=1.0.2"
     ec2_instance_ami                   =   # ec2 instance AMi details.                    
     aws_instance_type                  =   # ec2 instance type                 
     availability_zone                  =   # availability zone details.                       
