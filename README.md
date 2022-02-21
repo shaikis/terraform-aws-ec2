@@ -19,3 +19,4 @@ module "create_ec2_instance" {
     tag_description                    = "project1 db server"
     tag_orchestration                  = "terraform"
 }
+```
